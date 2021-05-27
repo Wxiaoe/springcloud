@@ -1,0 +1,27 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: auth-center
+#  main:
+      ## 当出现相同名称的bean时覆盖
+#    allow-bean-definition-overriding: true
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: after_route
+#          uri:  lb://data-producer
+#          predicates:
+#          - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#      config:
+#        server-addr: 127.0.0.1:8848
+##健康监控：spring-boot-starter-actuator包下
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+
